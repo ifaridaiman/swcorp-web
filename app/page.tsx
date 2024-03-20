@@ -339,7 +339,7 @@ export default function Home() {
             <SwiperSlide>
               <Image
                 className=" w-52 h-52"
-                src="/SWM/PIC2.png"
+                src="/SWM/PIC2.jpg"
                 alt="Gallery 1"
                 width={208}
                 height={208}
@@ -348,7 +348,7 @@ export default function Home() {
             <SwiperSlide>
               <Image
                 className=" w-52 h-52"
-                src="/SWM/PIC3.png"
+                src="/SWM/PIC3.jpg"
                 alt="Gallery 1"
                 width={208}
                 height={208}
