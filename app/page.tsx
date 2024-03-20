@@ -158,7 +158,6 @@ export default function Home() {
             keyboard={{
               enabled: true,
             }}
-            
             navigation={true}
             modules={[Keyboard, Pagination, Navigation]}
             className="mySwiper"
@@ -308,10 +307,9 @@ export default function Home() {
             keyboard={{
               enabled: true,
             }}
-            
             navigation={true}
             modules={[Keyboard, Pagination, Navigation]}
-            className="mySwiper"
+            className="mySwiper2"
             breakpoints={{
               640: {
                 slidesPerView: 2,
@@ -320,11 +318,7 @@ export default function Home() {
               768: {
                 slidesPerView: 4,
                 spaceBetween: 40,
-              },
-              1024: {
-                slidesPerView: 5,
-                spaceBetween: 50,
-              },
+              }
             }}
           >
             <SwiperSlide>
@@ -399,6 +393,7 @@ export default function Home() {
                 height={208}
               />
             </SwiperSlide>
+            
           </Swiper>
         </div>
         <div className="container mx-auto px-4 py-8">
@@ -413,7 +408,6 @@ export default function Home() {
             keyboard={{
               enabled: true,
             }}
-            
             navigation={true}
             modules={[Keyboard, Pagination, Navigation]}
             className="mySwiper"

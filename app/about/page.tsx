@@ -46,30 +46,30 @@ export default function Home() {
         <div className="container mx-auto">
             <h3 className="text-white font-bold text-2xl text-center">Sila klik mengikut lokasi negeri anda di bahagian bawah laman ini.</h3>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 w-3/4 mx-auto mt-8">
-                <div className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
+                <Link href={"https://floracare.mflora.com.my/customer/index.cfm?page=edaftar"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
                     Kuala Lumpur
-                </div>
-                <div className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
+                </Link>
+                <Link href={"https://floracare.mflora.com.my/customer/index.cfm?page=edaftar"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
                     Putrajaya
-                </div>
-                <div className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
+                </Link>
+                <Link href={"https://floracare.mflora.com.my/customer/index.cfm?page=edaftar"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
                     Pahang
-                </div>
-                <div className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
+                </Link>
+                <Link href={"http://swmresponz.swmsb.com/complaint-bm.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
                     Negeri Sembilan
-                </div>
-                <div className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
+                </Link>
+                <Link href={"http://swmresponz.swmsb.com/complaint-bm.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
                     Melaka
-                </div>
-                <div className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
+                </Link>
+                <Link href={"http://swmresponz.swmsb.com/complaint-bm.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
                     Johor
-                </div>
-                <div className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
+                </Link>
+                <Link href={"https://www.idamanonline.com/aduan-baru.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
                     Kedah
-                </div>
-                <div className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
+                </Link>
+                <Link href={"https://www.idamanonline.com/aduan-baru.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
                     Perlis
-                </div>
+                </Link>
             </div>
         </div>
       </div>
