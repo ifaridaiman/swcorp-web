@@ -318,7 +318,11 @@ export default function Home() {
               768: {
                 slidesPerView: 4,
                 spaceBetween: 40,
-              }
+              },
+              1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+              },
             }}
           >
             <SwiperSlide>
