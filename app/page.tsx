@@ -155,7 +155,6 @@ export default function Home() {
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
-            loop={true}
             keyboard={{
               enabled: true,
             }}
@@ -306,7 +305,6 @@ export default function Home() {
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
-            loop={true}
             keyboard={{
               enabled: true,
             }}
@@ -412,7 +410,6 @@ export default function Home() {
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
-            loop={true}
             keyboard={{
               enabled: true,
             }}
