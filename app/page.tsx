@@ -1,5 +1,14 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Keyboard, Pagination, Navigation } from "swiper/modules";
 
 export default function Home() {
   return (
@@ -136,9 +145,406 @@ export default function Home() {
           GALLERY
         </p>
       </div>
+      <div className="bg-gray-200 py-16">
+        <div className="container mx-auto px-4 py-8">
+          <p className="text-center text-xl text-[#002e5d] font-bold">
+            ALAM FLORA SDN. BHD.
+          </p>
+        </div>
+        <div className="px-4">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            loop={true}
+            keyboard={{
+              enabled: true,
+            }}
+            
+            navigation={true}
+            modules={[Keyboard, Pagination, Navigation]}
+            className="mySwiper"
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+              },
+            }}
+          >
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC1.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC2.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC3.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC4.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC5.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC6.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC7.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC8.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC9.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC10.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC11.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC12.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/AFSB/PIC13.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+        <div className="container mx-auto px-4 py-8">
+          <p className="text-center text-xl text-[#002e5d] font-bold">
+            SWM ENVIRONMENT SDN. BHD.
+          </p>
+        </div>
+        <div className="px-4">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            loop={true}
+            keyboard={{
+              enabled: true,
+            }}
+            
+            navigation={true}
+            modules={[Keyboard, Pagination, Navigation]}
+            className="mySwiper"
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+              },
+            }}
+          >
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/SWM/PIC1.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/SWM/PIC2.png"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/SWM/PIC3.png"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/SWM/PIC4.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/SWM/PIC5.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/SWM/PIC6.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/SWM/PIC7.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/SWM/PIC8.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+        <div className="container mx-auto px-4 py-8">
+          <p className="text-center text-xl text-[#002e5d] font-bold">
+            E-IDAMAN GROUP OF COMPANIES
+          </p>
+        </div>
+        <div className="px-4">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            loop={true}
+            keyboard={{
+              enabled: true,
+            }}
+            
+            navigation={true}
+            modules={[Keyboard, Pagination, Navigation]}
+            className="mySwiper"
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+              },
+            }}
+          >
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC1.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC2.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC3.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC4.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC5.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC6.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC7.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC8.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC9.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC10.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className=" w-52 h-52"
+                src="/EISB/PIC11.jpg"
+                alt="Gallery 1"
+                width={208}
+                height={208}
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </div>
       <div className="bg-white py-8">
-        <p className="text-center font-bold text-black text-4xl tracking-wide">Contact Us</p>
-        <p className="text-center font-semibold text-black text-base mt-4">Talian Aduan Pelanggan: 1-800-88-7472   |   Waktu Operasi / Operating hours: 8.00 AM - 8.00 PM</p>
+        <p className="text-center font-bold text-black text-4xl tracking-wide">
+          Contact Us
+        </p>
+        <p className="text-center font-semibold text-black text-base mt-4">
+          Talian Aduan Pelanggan: 1-800-88-7472 | Waktu Operasi / Operating
+          hours: 8.00 AM - 8.00 PM
+        </p>
       </div>
     </main>
   );
