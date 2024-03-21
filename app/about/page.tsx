@@ -1,3 +1,4 @@
+import StatePartial from "@/components/partials/StatePartial";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,37 +43,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="bg-black py-8 mt-16">
-        <div className="container mx-auto">
-            <h3 className="text-white font-bold text-2xl text-center">Sila klik mengikut lokasi negeri anda di bahagian bawah laman ini.</h3>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 w-3/4 mx-auto mt-8">
-                <Link href={"https://floracare.mflora.com.my/customer/index.cfm?page=edaftar"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
-                    Kuala Lumpur
-                </Link>
-                <Link href={"https://floracare.mflora.com.my/customer/index.cfm?page=edaftar"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
-                    Putrajaya
-                </Link>
-                <Link href={"https://floracare.mflora.com.my/customer/index.cfm?page=edaftar"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
-                    Pahang
-                </Link>
-                <Link href={"http://swmresponz.swmsb.com/complaint-bm.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
-                    Negeri Sembilan
-                </Link>
-                <Link href={"http://swmresponz.swmsb.com/complaint-bm.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
-                    Melaka
-                </Link>
-                <Link href={"http://swmresponz.swmsb.com/complaint-bm.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
-                    Johor
-                </Link>
-                <Link href={"https://www.idamanonline.com/aduan-baru.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
-                    Kedah
-                </Link>
-                <Link href={"https://www.idamanonline.com/aduan-baru.html"} className=" text-center border border-green-400 text-green-400 px-8 py-3 rounded hover:bg-green-400 hover:text-green-200 transition-all duration-100 ease-in-out ">
-                    Perlis
-                </Link>
-            </div>
-        </div>
-      </div>
+      <StatePartial />
     </main>
   );
 }
