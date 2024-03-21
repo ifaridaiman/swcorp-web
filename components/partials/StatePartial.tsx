@@ -25,6 +25,7 @@ const StatePartial = () => {
     { name: "Johor", url: "http://swmresponz.swmsb.com/complaint-bm.html" },
     { name: "Kedah", url: "https://www.idamanonline.com/aduan-baru.html" },
     { name: "Perlis", url: "https://www.idamanonline.com/aduan-baru.html" },
+    
   ];
 
   return (

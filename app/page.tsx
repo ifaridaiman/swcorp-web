@@ -1,14 +1,5 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-import { Keyboard, Pagination, Navigation } from "swiper/modules";
 import SliderEISB from "@/components/partials/SliderEISB";
 import SliderAlamFlora from "@/components/partials/SliderAlamFlora";
 import ContactOperation from "@/components/partials/ContactOperation";

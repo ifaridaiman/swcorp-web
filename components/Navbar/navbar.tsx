@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="w-full bg-white fixed top-0 z-50">
-      <div className="container mx-auto py-4 px-4 md:px-0">
+      <div className="container mx-auto py-4 px-4 md:px-0 flex justify-between">
         <Link href="/">
           <Image
             src="/logo_swcorp.webp"
