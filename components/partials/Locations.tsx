@@ -27,8 +27,8 @@ const Locations = () => {
                   </p>
                   <p id="contact">Tel: 03-2052 7922</p>
                   <p id="contact">Faks: 03-2052 8144</p>
-                  <p id="email">Email: feedback@alamflora.com.my </p>
-                  <p id="web">Web: www.alamflora.com.my</p>
+                  <p id="email">Email: <a className='hover:text-blue-500' href='mailto:feedback@alamflora.com.my'>feedback@alamflora.com.my</a> </p>
+                  <p id="web">Web: <a className='hover:text-blue-500' href='https://alamflora.com.my/'>www.alamflora.com.my</a></p>
                 </div>
               </div>
               <div className="text-center flex flex-col justify-center items-center">
@@ -52,8 +52,8 @@ const Locations = () => {
                   </p>
                   <p id="contact">Tel: 03 - 27889200</p>
                   <p id="contact">Faks: 03 - 27889201</p>
-                  <p id="email">Email: info@swmsb.com </p>
-                  <p id="web">Web: www.swmsb.com</p>
+                  <p id="email">Email: <a className='hover:text-blue-500' href='mailto:info@swmsb.com'>info@swmsb.com </a></p>
+                  <p id="web">Web: <a className='hover:text-blue-500' href='http://www.swmsb.com/'>www.swmsb.com</a></p>
                 </div>
               </div>
               <div className="text-center flex flex-col justify-center items-center">
@@ -77,8 +77,8 @@ const Locations = () => {
                   </p>
                   <p id="contact">Tel: 04-771 4053</p>
                   <p id="contact">Faks: 04-771 0489</p>
-                  <p id="email">Email: aduan@e-idaman.com </p>
-                  <p id="web">Web: www.e-idaman.com</p>
+                  <p id="email">Email: <a className='hover:text-blue-500' href='mailto:aduan@e-idaman.com'>aduan@e-idaman.com </a></p>
+                  <p id="web">Web: <a className='hover:text-blue-500' href='https://e-idaman.com/'>www.e-idaman.com</a></p>
                 </div>
               </div>
             </div>
