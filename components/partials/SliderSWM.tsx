@@ -55,7 +55,7 @@ const SliderSWM = () => {
             <SwiperSlide>
               <Image
                 className=" w-52 h-52"
-                src="/SWM/PIC2.jpg"
+                src="/SWM/Pic2.jpg"
                 alt="Gallery 1"
                 width={208}
                 height={208}
@@ -64,7 +64,7 @@ const SliderSWM = () => {
             <SwiperSlide>
               <Image
                 className=" w-52 h-52"
-                src="/SWM/PIC3.jpg"
+                src="/SWM/Pic3.jpg"
                 alt="Gallery 1"
                 width={208}
                 height={208}
