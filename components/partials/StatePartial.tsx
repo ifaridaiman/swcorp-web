@@ -29,7 +29,7 @@ const StatePartial = () => {
   ];
 
   return (
-    <div className="bg-black py-8">
+    <div className="bg-black py-16">
       <div className="container mx-auto">
         <h3 className="text-white font-bold text-2xl text-center">
           Sila klik mengikut lokasi negeri anda di bahagian bawah laman ini.

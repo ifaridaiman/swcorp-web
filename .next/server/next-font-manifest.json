@@ -1,10 +1,1 @@
-{
-  "pages": {},
-  "app": {
-    "/Users/farid/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": [
-      "static/media/c9a5bc6a7c948fb0-s.p.woff2"
-    ]
-  },
-  "appUsingSizeAdjust": true,
-  "pagesUsingSizeAdjust": false
-}
+{"pages":{},"app":{"/Users/farid/Documents/swcorp-web/app/layout":["static/media/c9a5bc6a7c948fb0-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}
