@@ -7,6 +7,7 @@ import HeroBanner from "@/components/partials/HeroBanner";
 import SliderSWM from "@/components/partials/SliderSWM";
 import Locations from "@/components/partials/Locations";
 import Aboutus from "@/components/partials/Aboutus";
+import StatePartial from "@/components/partials/StatePartial";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Aboutus />
         <Locations />
       </div>
+      <StatePartial />
       <div className="bg-[#002e5d] py-16">
         <p className="text-center font-black text-white text-5xl tracking-widest">
           GALLERY

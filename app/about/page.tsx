@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className=" mt-12">
-      <div className="container mx-auto">
+      <div className="container mx-auto my-16">
         <div className="flex justify-center items-center">
           <Image
             className="rounded shadow-xl"
@@ -43,7 +43,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <StatePartial />
+      
     </main>
   );
 }
